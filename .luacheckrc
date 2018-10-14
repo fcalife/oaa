@@ -71,7 +71,17 @@ globals = { -- these globals can be set and accessed.
 "AUTO_ABANDON_IN_CM",
 "MIN_MATCH_TIME",
 "ABANDON_DIFF_NEEDED",
-"ABANDON_NEEDED"
+"ABANDON_NEEDED",
+"RANKED_PREGAME_TIME",
+"RANKED_BAN_TIME",
+"RANKED_PICK_TIME",
+"DUEL_START_PROTECTION_TIME",
+"COMPONENT_GAME_SETUP",
+"COMPONENT_TEAM_SELECT",
+"COMPONENT_HERO_SELECT",
+"COMPONENT_STRATEGY",
+"COMPONENT_GAME_IN_PROGRESS",
+"Components"
 }
 
 read_globals = { -- these globals can only be accessed.
@@ -175,6 +185,8 @@ read_globals = { -- these globals can only be accessed.
 
 -- logging
 "D2CustomLogging",
+
+"DOTA_TEAM_SPECTATOR",
 
 "ACT_MELEE_VM_RELOAD",
 "DOTA_LOADOUT_TYPE_OFFHAND_WEAPON",
@@ -2793,7 +2805,13 @@ read_globals = { -- these globals can only be accessed.
 "GetDedicatedServerKey",
 "sha256",
 "TEN_V_TEN_KILL_LIMIT",
-"NORMAL_KILL_LIMIT"
+"NORMAL_KILL_LIMIT",
+"SPECIAL_BOTTLES",
+"SPECIAL_ARCANAS",
+"HeroSelection",
+"FindCustomBuildingsInRadius",
+"FindAllBuildingsInRadius",
+"PreventGettingStuck"
 }
 
 ignore = {

@@ -53,12 +53,12 @@
       "03"
       {
         "var_type"          "FIELD_INTEGER"
-        "end_distance"        "500"
+        "end_distance"        "600 700 800 900 1000 1100"
       }
       "04"
       {
         "var_type"          "FIELD_INTEGER"
-        "targets"         "2 4 6 8 10 12"
+        "targets"         "8" //OAA
       }
       "05"
       {
